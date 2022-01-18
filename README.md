@@ -22,19 +22,48 @@ Além dessas condições, não é recomendável a concessão de Suprimento de Fu
 + **D – Qual a URL onde é possível fazer o download dos arquivos do CPGF?**<br>
 📝 https://www.portaltransparencia.gov.br/download-de-dados/cpgf
 
-+ **E – Qual a URL da paǵina com a descrição dos campos (ou dicionário de dados) da CPGF?**
++ **E – Qual a URL da paǵina com a descrição dos campos (ou dicionário de dados) da CPGF?**<br>
 📝 https://www.portaldatransparencia.gov.br/pagina-interna/603393-dicionario-de-dados-cpgf
 
-+ **F – É possível identificar o nome e o documento do portador do CPGF, em todas as movimentações ou há movimentações onde não é possível identificar o portador?**
++ **F – É possível identificar o nome e o documento do portador do CPGF, em todas as movimentações ou há movimentações onde não é possível identificar o portador?**<br>
+📝 Não é possível identificar o portador nas movimentações em que o perfil consta SIGILOSO.
 
-+ **G – É possível identificar o Órgão do portador do CPGF?**
++ **G – É possível identificar o Órgão do portador do CPGF?**<br>
+📝 Sim é possível identificar.
 
 + **H - Qual o nome do Órgão cujo código é 20402?**<br>
 📝 20402 ‑ Agência Espacial Brasileira
 
-+ **I - É possível identificar o Nome e Documento (CNPJ) dos favorecidos pela utilização do CPGF?**
++ **I - É possível identificar o Nome e Documento (CNPJ) dos favorecidos pela utilização do CPGF?**<br>
 📝 Sim, essa informação consta na coluna CNPJ OU CPF FAVORECIDO
 
 + **J – É possível identificar a data e o valor das movimentações financeiras do CPGF, em todas as movimentações? Ou há movimentações onde não é possível identificar as datas e
-ou valores?**
+ou valores?**<br>
+📝 Não é possível identificar a data nas movimentações SIGILOSAS, porém o valor é registrado em todas as movimentações.
 
+>  **As perguntas e respostas citadas abaixo, também poderão ser visualizadas no endereço de URL: http://162.214.187.112/~desafioaml/aml **
+
++ **K (código) – Qual a soma total das movimentações utilizando o CPGF?**<br> 
+📝 R$ 5.619.007,95
+
++ **L (código) – Qual a soma das movimentações sigilosas?**<br>
+📝 R$ 3.108.731,15
+
++ **M (código) – Qual o Órgão que mais realizou movimentações sigilosas no período e qual o valor (soma)**<br>
+📝 Presidência da República: R$ 1.699.751,04
+
++ **N (código) – Qual o nome do portador que mais realizou saques no período? Qual a soma dos saques realizada por ele? Qual o nome do Órgão desse portador?**<br>
+📝 Instituto Chico Mendes de Conservação da Biodiversidade - Rafael Fereira Costa: R$ 24.520,00
+
++ **O (código) – Qual o nome do favorecido que mais recebeu compras realizadas utilizando o CPGF?**<br>
+📝 MERCADOPAGO.COM REPRESENTACOES LTDA.: R$ 60.694,21
+
++ **Descreva qual a abordagem utilizada para desenvolver o código para os ítens de K a O.**<br>
+📝 Foram elaboradas algumas atividades para responder as perguntas de K a O.<br>
+a) Analisar colunas, formatação e registro da planilha CPGF - 10/2021;<br>
+b) Com base no dicionário de dados da CPGF entender o que é cada informação;<br>
+c) Criar um front-end para (visualização das respostas/ upload da planilha CPGF / Gerenciamento do Upload CPGF;<br>
+d) Programar em PHP 7, códigos para telas de back-end e front-end.<br>
+e) Publicar o projeto em um servidor de teste apenas para visualização do resultado final<br><br> 
+
+O resultado final é a resposta das perguntas apresentados em tela, com a possibilidade de inserir e gerenciar novas planilhas de CPGF
